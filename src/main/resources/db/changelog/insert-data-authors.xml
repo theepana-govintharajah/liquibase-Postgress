@@ -56,4 +56,25 @@
   </changeSet>
 
 
+  <changeSet id="08" author="codingworld" context="cucumber">
+    <comment>Inserting Authors</comment>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="16"/>
+      <column name="name" value="author_016"/>
+    </insert>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="17"/>
+      <column name="name" value="author_017"/>
+    </insert>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="18"/>
+      <column name="name" value="author_018"/>
+    </insert>
+    <insert tableName="authors">
+      <column name="id" valueNumeric="19"/>
+      <column name="name" value="author_019"/>
+    </insert>
+
+  </changeSet>
+
 </databaseChangeLog>
